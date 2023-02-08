@@ -1,0 +1,35 @@
+{
+  "name": "@taschner/usehooks",
+  "version": "0.0.1",
+  "description": "Create more hooks utilities to arrays and objects",
+  "main": "src/index.ts",
+  "types": "./types/index.d.ts",
+  "files": [
+    "src",
+    "interfaces"
+  ],
+  "exports": {
+    "./index.ts": {
+      "require": "./src/index.ts",
+      "types": "./types/index.d.ts"
+    },
+      "./index.d.ts": "./index.d.ts"
+  },
+  "scripts": {
+    "test": "dev-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeTaschner/useHooks.git"
+  },
+  "author": "Guilherme da Silveira Taschner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeTaschner/useHooks/issues"
+  },
+  "homepage": "https://github.com/GuilhermeTaschner/useHooks#readme",
+  "dependencies": {
+    "axios": "^1.3.2"
+  },
+  "keywords": ["useHooks", "useSearch"]
+}
